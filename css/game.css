@@ -1,0 +1,196 @@
+/* CSS Document */
+.wrapper-ui{
+	width:777px;
+	margin:0 auto;	
+}
+.wrapper-game{
+	width:477px;
+	height:600px;
+	position:relative;	
+	overflow:hidden;
+	float:left;
+}
+.over-game{
+	width:476px;
+	height:600px;
+	position:absolute;
+	background:#333333;
+	z-index:100;
+	font-size:80px;
+	border-right:1px solid #CCC;
+	font-weight:bold;
+	line-height:600px;
+	text-align:center;
+	visibility:hidden;
+}
+
+.opp-car1{
+	width:100px;
+	height:100px;
+	position:absolute;	
+	background:url(../images/opp1.png) no-repeat;
+}
+.opp-car2{
+	width:100px;
+	height:100px;
+	position:absolute;	
+	background:url(../images/opp2.png) no-repeat;
+}
+.opp-car3{
+	width:100px;
+	height:100px;
+	position:absolute;	
+	background:url(../images/opp3.png) no-repeat;
+}
+
+.p-car{
+	width:100px;
+	height:100px;
+	background-color:#99FF00;
+	position:absolute;
+	top:500px;	
+	background:url(../images/car_player.png) no-repeat;
+	left:40px;
+}
+.p-road{
+	width:477px;
+	height:10000px;
+	top:-9400px;
+	position:absolute;
+	background:url(../images/road.png) repeat-y;
+}
+.wrapper-settings{
+	height:600px;
+	width:300px;
+	float:right;
+	background-color:#999999;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	position:relative;
+}
+.wrapper-settings span.heading{
+	display:block;
+	background-color:#333333;
+	color:#FFFFFF;
+	
+	
+	font-size:20px;
+	padding:5px;
+}
+.wrapper-settings span.life{
+	width:150px;
+	display:block;
+	float:left;
+	height:30px;
+	background:url(../images/life.png) repeat-x;
+	
+}
+.wrapper-settings span.bullet{
+	width:150px;
+	display:block;
+	float:left;
+	height:30px;
+	background:url(../images/bullet.png) repeat-x;
+	
+}
+
+.wrapper-settings span.life-label{
+	float:left;
+	display:block;
+	font-size:12px;
+	width:80px;
+	padding-left:10px;
+	line-height:30px;
+	background-color:inherit;
+	
+}
+
+.booom{
+	width:100px;
+	height:50px;
+	position:absolute;
+	background:url(../images/boom.png);
+}
+.bullets{
+	width:5px;
+	height:10px;
+	position:absolute;
+	background:url(../images/go_bullet.png);
+}
+.distance-rem{
+	width:100px;
+	margin-top:20px;
+	position:relative;
+	float:left;	
+}
+.length-road{
+	display:block;
+	width:2px;
+	margin-left:49px;
+	height:190px;
+	background-color:#333333;
+}
+.length-indicator{
+	display:block;
+	position:absolute;
+	bottom:0px;
+	width:10px;
+	border-radius:8px;
+	left:45px;
+	height:10px;
+	background-color:#CCCCCC;
+}
+
+.scoreboard{
+	float:left;
+	margin-left:10px;
+	margin-top:50px;
+	background-color:#333333;
+	width:150px;
+	border-radius:5px;
+	padding-top:5px;
+	text-align:center;
+}
+.scoreboard span{
+	display:block;
+	margin-top:5px;
+	background:#666666;
+	height:100px;
+	text-align:center;
+	font-size:60px;
+	border-radius:0px 0px 5px 5px;
+}
+.instructions{
+	background-color:#FF0000;
+	height:250px;
+	margin-top:10px;
+	background:url(../images/instruction.png) no-repeat;	
+}
+
+.restart-but{
+	width:130px;
+	background:#009966;
+	height:60px;
+	position:absolute;
+	right:10px;
+	bottom:250px;	
+	background:url(../images/restart.png) no-repeat;
+}
+
+
+
+
+.cfix:before, .cfix:after {
+	content:"";
+	display:table;
+}
+.cfix:after {
+	clear:both;
+}
+
+
+
+
+/*.cfix {
+	zoom:1;
+}*/ /*IE6&7*/

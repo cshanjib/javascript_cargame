@@ -1,0 +1,5 @@
+This is my javascript 1st assignment of a car racing game.
+The controls are:
+Move Left:Left Button
+Move Right:Right Button
+Fire:Up Button

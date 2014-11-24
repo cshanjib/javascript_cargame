@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Speed Racing</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/game.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="wrapper-ui cfix">
+        <div id="container" class="wrapper-game">
+            <div id="road" class="p-road">
+            </div>
+            <div id="player" class="p-car">
+            </div>
+            <div id="game-over" class="over-game">
+            Game Over
+            </div>
+        
+        </div>
+        <div class="wrapper-settings">
+        	<span class="heading">Speed Racing</span>
+            <div class="cfix"><span class="life-label">Lives Left:</span><span class="life" id="lifeindicator"></span></div>
+            <div class="cfix"><span class="life-label">Bullets Left:</span><span class="bullet" id="bulletindicator"></span></div>
+            <div class ="distance-rem"><span class="length-road"></span> <span class="length-indicator" id="indicator-length"></span></div>
+            <div class="scoreboard">Score<span id="gamescore">0</span></div>
+            <div class="clear"></div>
+            <div class="instructions"></div>
+            <div class="restart-but" onclick="clearGame()"></div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/game.js"></script>
+</body>
+</html>
